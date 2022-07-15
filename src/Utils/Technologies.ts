@@ -22,11 +22,11 @@ import trello from "../assets/icons/trello.png";
 import typescript from "../assets/icons/typescript.png";
 import notion from "../assets/icons/notion.png";
 
-interface ITecnologies {
+interface ITechnologies {
   [key: string]: any;
 }
 
-export const Tecnologies = {
+export const Technologies = {
   cypress: cy,
   html5: html,
   css3: css,
@@ -50,4 +50,4 @@ export const Tecnologies = {
   trello: trello,
   typescript: typescript,
   notion: notion,
-} as ITecnologies;
+} as ITechnologies;

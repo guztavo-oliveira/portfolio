@@ -2,9 +2,8 @@ import { PortfolioCard } from "../../Components/PortfolioCard";
 import { Container } from "./styles";
 import { Projects } from "../../Utils/Projects";
 import dev from "../../assets/images/software-engineer.png";
-import dev2 from "../../assets/images/dev.png";
 import perfil from "../../assets/images/foto_perfil.jpeg";
-import { Tecnologies } from "../../Utils/Tecnologies";
+import { Technologies } from "../../Utils/Technologies";
 import ln from "../../assets/images/linkedin.png";
 import github from "../../assets/images/github-logo3.png";
 import cv from "../../assets/images/curriculum_vitae.png";
@@ -147,27 +146,21 @@ const Home = () => {
                 <h1>Front-end</h1>
               </div>
               <div className="front__column">
-                <img src={Tecnologies["html5"]} alt="html5 logo" />
-                <img src={Tecnologies["css3"]} alt={Tecnologies["css3"]} />
+                <img src={Technologies["html5"]} alt="html5 logo" />
+                <img src={Technologies["css3"]} alt="css3 logo" />
                 <img
-                  src={Tecnologies["javascript"]}
-                  alt={Tecnologies["javascript"]}
+                  src={Technologies["javascript"]}
+                  alt={Technologies["javascript"]}
                 />
-                <img src={Tecnologies["typescript"]} alt="typescript" />
-                <img src={Tecnologies["react"]} alt={Tecnologies["react"]} />
+                <img src={Technologies["typescript"]} alt="typescript" />
+                <img src={Technologies["react"]} alt="typescript logo" />
+                <img src={Technologies["materialUI"]} alt="materialUI logo" />
                 <img
-                  src={Tecnologies["materialUI"]}
-                  alt={Tecnologies["materialUI"]}
+                  src={Technologies["styledComponents"]}
+                  alt="styledComponents logo"
                 />
-                <img
-                  src={Tecnologies["styledComponents"]}
-                  alt={Tecnologies["styledComponents"]}
-                />
-                <img
-                  src={Tecnologies["cypress"]}
-                  alt={Tecnologies["cypress"]}
-                />
-                <img src={Tecnologies["jest"]} alt={Tecnologies["jest"]} />
+                <img src={Technologies["cypress"]} alt="cypress logo" />
+                <img src={Technologies["jest"]} alt="jest logo" />
               </div>
             </div>
             <div className="back">
@@ -175,23 +168,17 @@ const Home = () => {
                 <h1>Back-end</h1>
               </div>
               <div className="back__column">
-                <img src={Tecnologies["nodejs"]} alt={Tecnologies["nodejs"]} />
+                <img src={Technologies["nodejs"]} alt="nodejs logo" />
                 <img
-                  src={Tecnologies["express"]}
-                  alt={Tecnologies["express"]}
+                  src={Technologies["express"]}
+                  alt={Technologies["express"]}
                 />
-                <img src={Tecnologies["python"]} alt={Tecnologies["python"]} />
-                <img src={Tecnologies["django"]} alt={Tecnologies["django"]} />
-                <img src={Tecnologies["flask"]} alt={Tecnologies["flask"]} />
-                <img
-                  src={Tecnologies["sqlAlchemy"]}
-                  alt={Tecnologies["sqlAlchemy"]}
-                />
-                <img
-                  src={Tecnologies["postgreSQL"]}
-                  alt={Tecnologies["postgreSQL"]}
-                />
-                <img src={Tecnologies["mongo"]} alt={Tecnologies["mongo"]} />
+                <img src={Technologies["python"]} alt="python logo" />
+                <img src={Technologies["django"]} alt="django logo" />
+                <img src={Technologies["flask"]} alt="flask logo" />
+                <img src={Technologies["sqlAlchemy"]} alt="sqlAlchemy logo" />
+                <img src={Technologies["postgreSQL"]} alt="postgreSQL logo" />
+                <img src={Technologies["mongo"]} alt="mongoDB logo" />
               </div>
             </div>
             <div className="devops">
@@ -199,45 +186,15 @@ const Home = () => {
                 <h1>Devops</h1>
               </div>
               <div className="devops__column">
-                <img src={Tecnologies["git"]} alt={Tecnologies["git"]} />
-                <img src={Tecnologies["docker"]} alt={Tecnologies["docker"]} />
-                <img src={Tecnologies["vercel"]} alt={Tecnologies["vercel"]} />
-                <img src={Tecnologies["heroku"]} alt={Tecnologies["heroku"]} />
-                <img src={Tecnologies["trello"]} alt={Tecnologies["trello"]} />
-                <img src={Tecnologies["notion"]} alt="notion logo" />
+                <img src={Technologies["git"]} alt="git logo" />
+                <img src={Technologies["docker"]} alt="docker logo" />
+                <img src={Technologies["vercel"]} alt="vercel logo" />
+                <img src={Technologies["heroku"]} alt="heroku logo" />
+                <img src={Technologies["trello"]} alt="trello logo" />
+                <img src={Technologies["notion"]} alt="notion logo" />
               </div>
             </div>
           </div>
-          {/* <div className="content_box">
-            <p>
-              Possuo conhecimentos em <span>HTML5</span>, <span>CSS3</span>, e{" "}
-              <span>JS (ES5)</span>, além criação de SPA utilizando{" "}
-              <span>React</span> e <span>Typescript</span>.
-            </p>
-            <p>
-              Claro que não podem faltar os testes, teste unitários e de
-              integração utilizando <span>Jest</span> e testes E2E com{" "}
-              <span>Cypress</span>.
-            </p>
-            <p>
-              No backend já realizei projetos utilizando <span>Python</span> e{" "}
-              <span>NodeJS</span> para criação de APi's RESTful. Com Python
-              empreguei o uso do <span>Flask</span> e <span>Django</span>
-              como frameworks e em NodeJS o <span>Express</span>.
-            </p>
-            <p>
-              Como banco de dados foram utilizados <span>MongoDB</span> e o{" "}
-              <span>PostgreSQL</span>. Assim como o uso de <span>Docker</span>{" "}
-              para auxiliar o desenvolvimento.
-            </p>
-            <p>
-              Todos os projetos foram baseados nas melhores práticas de
-              desenvolvimento, utilizando <span>Clean Code</span>,{" "}
-              <span>Design Patters</span> de cada linguagem e conventional
-              commits para padronização dos repositórios.
-            </p>
-          </div> */}
-          {/* <div className="spinner__container"></div> */}
         </section>
         <section className="portfolio">
           <h1 className="title">Projetos</h1>

@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Container } from "./style";
-import { Tecnologies } from "../../Utils/Tecnologies";
+import { Technologies } from "../../Utils/Technologies";
 import { Button } from "../Button";
 
 interface IProjects {
@@ -19,7 +19,6 @@ interface IPortfolioCardProps {
 const PortfolioCard = ({ project }: IPortfolioCardProps) => {
   return (
     <Container>
-      {/* <div className="card_logo_tag">Backend</div> */}
       <h1>{project.name}</h1>
 
       <div className="card_container">
@@ -45,7 +44,7 @@ const PortfolioCard = ({ project }: IPortfolioCardProps) => {
               return (
                 <li>
                   <abbr title={e}>
-                    <img src={Tecnologies[e]} alt={e} />
+                    <img src={Technologies[e]} alt={e} />
                   </abbr>
                 </li>
               );
