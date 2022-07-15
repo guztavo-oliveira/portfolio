@@ -1,5 +1,5 @@
-import findRecipes from "../assets/images/find-recipes.png";
-import ajudeMeuPet from "../assets/images/ajude-meu-pet.png";
+import findRecipes from "../Assets/images/find-recipes.png";
+import ajudeMeuPet from "../Assets/images/ajude-meu-pet.png";
 
 interface IProjects {
   name: string;

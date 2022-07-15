@@ -1,14 +1,14 @@
 import { PortfolioCard } from "../../Components/PortfolioCard";
 import { Container } from "./styles";
 import { Projects } from "../../Utils/Projects";
-import dev from "../../assets/images/software-engineer.png";
-import perfil from "../../assets/images/foto_perfil.jpeg";
+import dev from "../../Assets/images/software-engineer.png";
+import perfil from "../../Assets/images/foto_perfil.jpeg";
 import { Technologies } from "../../Utils/Technologies";
-import ln from "../../assets/images/linkedin.png";
-import github from "../../assets/images/github-logo3.png";
-import cv from "../../assets/images/curriculum_vitae.png";
-import coffee from "../../assets/icons/coffee.png";
-import heart from "../../assets/icons/heart.png";
+import ln from "../../Assets/images/linkedin.png";
+import github from "../../Assets/images/github-logo3.png";
+import cv from "../../Assets/images/curriculum_vitae.png";
+import coffee from "../../Assets/icons/coffee.png";
+import heart from "../../Assets/icons/heart.png";
 
 const Home = () => {
   return (

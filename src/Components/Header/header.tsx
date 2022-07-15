@@ -2,9 +2,9 @@ import { Container, Menu } from "./styles";
 import { Drawer } from "@mui/material";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
-import ln from "../../assets/images/linkedin.png";
-import github from "../../assets/images/github-logo3.png";
-import cv from "../../assets/images/curriculum_vitae.png";
+import ln from "../../Assets/images/linkedin.png";
+import github from "../../Assets/images/github-logo3.png";
+import cv from "../../Assets/images/curriculum_vitae.png";
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
