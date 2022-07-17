@@ -1,6 +1,4 @@
-import styled, { css } from "styled-components";
-
-import ln from "../../assets/images/linkedin.png";
+import styled from "styled-components";
 
 export const Container = styled.main`
   margin: 0 auto;
@@ -446,7 +444,6 @@ export const Container = styled.main`
   }
 
   .footer {
-    height: 150px;
     width: 100%;
     display: flex;
     flex-direction: column;

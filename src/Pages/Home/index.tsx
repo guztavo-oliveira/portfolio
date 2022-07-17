@@ -206,8 +206,13 @@ const Home = () => {
         </section>
         <section className="footer">
           <div className="contact">
-            ~ Desenvolvido com muito <img src={heart} alt="Heart logo" /> e{" "}
-            <img src={coffee} alt="Coffee icon" /> por Gustavo Oliveira ~
+            <p>
+              ~ Desenvolvido com muito
+              <img src={heart} alt="Heart logo" />
+              e muito
+              <img src={coffee} alt="Coffee icon" />
+              por Gustavo Oliveira ~
+            </p>
           </div>
           <div className="copyright">Copyright 2022</div>
           <div className="links">
