@@ -36,6 +36,7 @@ export const Container = styled.div`
     -webkit-text-fill-color: transparent;
     font-size: 1.5rem;
     background-clip: text;
+    -webkit-background-clip: text;
   }
 
   p {
