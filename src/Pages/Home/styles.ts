@@ -511,6 +511,7 @@ export const Container = styled.main`
         /* filter: drop-shadow(0 0 0.5rem rgb(96, 255, 217, 0.5)); */
         border: 1px dashed rgb(96, 255, 217);
         max-width: 300px;
+        margin-bottom: 5px;
       }
     }
 
