@@ -212,7 +212,7 @@ const Home = () => {
               e muito
               <img src={coffee} alt="Coffee icon" />
               por Gustavo Oliveira ~
-            </p>
+            </p>{" "}
           </div>
           <div className="copyright">Copyright 2022</div>
           <div className="links">
