@@ -9,6 +9,7 @@ import github from "../../Assets/images/github-logo3.png";
 import cv from "../../Assets/images/curriculum_vitae.png";
 import coffee from "../../Assets/icons/coffee.png";
 import heart from "../../Assets/icons/heart.png";
+import cv_pdf from "../../Assets/doc/GustavoCV.pdf";
 
 const Home = () => {
   return (
@@ -90,22 +91,14 @@ const Home = () => {
             <div className="container__trapdoor">
               <img src={cv} alt="curriculum logo" />
               <div className="trapdoor">
-                <a
-                  href="../../assets/doc/Gustavo_Oliveira_CV_Fullstack.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={cv_pdf} target="_blank" rel="noreferrer">
                   <div className="top door-cv"></div>
                 </a>
-                <a
-                  href="../../assets/doc/Gustavo_Oliveira_CV_Fullstack.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={cv_pdf} target="_blank" rel="noreferrer">
                   <div className="bottom door-cv"></div>
                 </a>
                 <a
-                  href="../../assets/doc/Gustavo_Oliveira_CV_Fullstack.pdf"
+                  href={cv_pdf}
                   className="linkedin-button"
                   data-show-count="false"
                   data-size="large"

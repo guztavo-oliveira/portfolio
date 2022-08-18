@@ -64,8 +64,8 @@ export const Projects = [
   {
     name: "Ajude meu pet",
     description:
-      "Aplicação pensada para auxiliar os donos de animais a manter os cuidados de seu companheiro em" +
-      "dia. Através do cadastro no site é possível contratar os serviços de passeio, treinamentos e de táxi" +
+      "Aplicação pensada para auxiliar os donos de animais a manter os cuidados de seu companheiro em " +
+      "dia. Através do cadastro no site é possível contratar os serviços de passeio, treinamentos e de táxi " +
       "pet, caso seja necessário levá-lo ao veterinário ou a outro local",
     techs: [
       "react",
