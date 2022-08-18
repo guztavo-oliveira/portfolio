@@ -224,11 +224,7 @@ const Home = () => {
             >
               <img src={github} alt="Github logo" />
             </a>
-            <a
-              href="../../assets/doc/Gustavo_Oliveira_CV_Fullstack.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={cv_pdf} target="_blank" rel="noreferrer">
               <img src={cv} alt="Curriculum vitae" />
             </a>
           </div>
